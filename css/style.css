@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+ /* Hide the number input's arrow buttons */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+*, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+}
+header .nav-link{
+  color: #fff;
+}
+header .nav-link:hover{
+  color:aqua;
+}
+footer{
+  background-color: black;
+  color: #fff;
+}
+footer .nav-link{
+  color: #fff;
+}
+footer .nav-link:hover{
+  color: aqua;
+}
+@media screen and (max-width: 1200px) {
+  .features .features-list {
+    padding: 0;
+  }
+  .features .features-list li {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .features .features-list li h4 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 992px) {
+  .features .features-list li {
+    width: 45%;
+    padding: 5px 0;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+ 
+ 
+}
